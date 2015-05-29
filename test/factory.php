@@ -1,6 +1,6 @@
 <?php
-namespace FactoryMethod;
-include '../init.php';
+include '../bootstrap.php';
+use FactoryMethod\SendFactory;
 
 class Test
 {
@@ -14,7 +14,4 @@ class Test
     }
 }
 
-echo '普通的工厂模式' , PHP_EOL;
 Test::main();
-
-

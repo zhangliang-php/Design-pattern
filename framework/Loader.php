@@ -9,6 +9,6 @@ class Loader
      */
     static function autoload($class)
     {
-        require BASEDIR.'/'.str_replace('\\', '/', $class).'.php';
+        require SRC_DIR.'/'.str_replace('\\', '/', $class).'.php';
     }
 }

@@ -5,7 +5,7 @@ namespace FactoryMethod;
  * Class MailSender
  * @package FactoryMethod
  */
-class MailSender
+class MailSender implements  ISender
 {
     /**
      * send a mail
