@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>PHP</ID>
+  <OriginalElement>\FactoryMethod\ISender</OriginalElement>
+  <nodes>
+    <node x="0.0" y="272.0">\FactoryMethod\SendFactory</node>
+    <node x="-7.500000000000057" y="100.83333333333334">\FactoryMethod\MailSender</node>
+    <node x="46.666666666666686" y="-6.166666666666657">\FactoryMethod\ISender</node>
+    <node x="108.16666666666669" y="100.0">\FactoryMethod\SmsSender</node>
+  </nodes>
+  <notes>
+    <note x="10.0" y="225.0">
+      <node>\FactoryMethod\SendFactory</node>
+      <value>调用工场获取实例</value>
+      <edge>
+        <point x="0.0" y="-25.0" />
+        <point x="0.0" y="13.5" />
+      </edge>
+    </note>
+  </notes>
+  <edges>
+    <edge source="\FactoryMethod\MailSender" target="\FactoryMethod\ISender">
+      <point x="0.0" y="-25.0" />
+      <point x="47.0" y="75.0" />
+      <point x="80.5" y="75.0" />
+      <point x="-23.5" y="25.0" />
+    </edge>
+    <edge source="\FactoryMethod\SmsSender" target="\FactoryMethod\ISender">
+      <point x="0.0" y="-25.0" />
+      <point x="161.0" y="75.0" />
+      <point x="127.5" y="75.0" />
+      <point x="23.5" y="25.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.2000000000000002" x="112.0" y="160.99999999999997" />
+  <SelectedNodes>
+    <node>\FactoryMethod\MailSender</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
